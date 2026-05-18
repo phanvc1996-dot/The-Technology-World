@@ -12,3 +12,151 @@ body {
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: #fff200;
+  text-align: center;
+}
+
+/*============================== Navigation ==============================*/
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li,
+a {
+  color: white;
+  font-size: 15px;
+}
+
+nav ul li:nth-child(2) a {
+  color: #fff200;
+}
+
+nav ul li:nth-child(2) i {
+  color: #fff200;
+  font-size: 15px;
+  margin-left: 6px;
+}
+
+nav ul li:nth-child(3) {
+  position: relative;
+}
+
+nav ul li:nth-child(3) input {
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  padding-left: 8px;
+  outline: none;
+}
+
+nav ul li:nth-child(3) i {
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  right: 8px;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+nav ul li:nth-child(4) button {
+  height: 35px;
+  padding: 0 12px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid rgb(156, 156, 156);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+nav ul li:nth-child(4) button:hover {
+  background: rgb(94, 94, 94);
+}
+
+nav ul li:nth-child(4) button i {
+  margin-right: 8px;
+}
+
+nav ul li:nth-child(5) {
+  text-align: center;
+}
+
+nav ul li:nth-child(5):hover a {
+  color: #fff200;
+}
+
+nav ul li:nth-child(6) a {
+  color: #fff200;
+}
+
+.round {
+  display: inline-block;
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #fff200;
+  margin-right: 10px;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background: #fff200;
+  z-index: 1;
+  display: block;
+  animation: trans 2s linear infinite;
+}
+
+@keyframes trans {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(10);
+    opacity: 0;
+  }
+}
+
+nav ul li:nth-child(7) {
+  text-align: center;
+}
+
+nav ul li:nth-child(7):hover a {
+  color: #fff200;
+}
+
+nav ul li:nth-child(8):hover a {
+  color: #fff200;
+}
+
+nav ul li:nth-child(9):hover a {
+  color: #fff200;
+}
