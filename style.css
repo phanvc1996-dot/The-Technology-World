@@ -29,6 +29,7 @@ a {
 header {
   background: #fff200;
   text-align: center;
+  height: 44.5px;
 }
 
 /*============================== Navigation ==============================*/
@@ -216,4 +217,86 @@ nav ul li:nth-child(9):hover a {
   border-color: #f51212 transparent transparent;
   bottom: -7.9px;
   left: 8px;
+}
+
+/*============================== Address form ==============================*/
+
+.address-form {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+  color: black;
+  display: none;
+}
+
+.address-form-content {
+  width: 400px;
+  height: 450px;
+  background: white;
+  border-radius: 5px;
+}
+
+.address-form-content form {
+  padding: 0 40px;
+}
+
+.address-form-content h2 {
+  font-size: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.address-form-content h2 span {
+  display: block;
+  position: absolute;
+  height: 30px;
+  padding: 0 6px;
+  border: 1px solid #ddd;
+  font-weight: 600;
+  top: 5px;
+  right: 12px;
+  cursor: pointer;
+  line-height: 30px;
+  border-radius: 8px;
+}
+
+.address-form-content h2 span:hover {
+  background: #b8b4b4;
+}
+
+.address-form-content p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.address-form-content input,
+select {
+  height: 40px;
+  display: block;
+  margin: 25px 0;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid rgb(161, 157, 157);
+}
+
+.address-form-content form button {
+  height: 40px;
+  width: 300px;
+  background: orange;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }

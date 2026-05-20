@@ -117,9 +117,39 @@
                 alt=""
             /></a>
           </li>
-          <li>
-            <a href="">Đà Nẵng <i class="fa-solid fa-caret-down"></i></a>
+          <li id="address-form">
+            <a href="#">Đà Nẵng <i class="fa-solid fa-caret-down"></i></a>
           </li>
+          <div class="address-form">
+            <div class="address-form-content">
+              <h2>
+                Chọn địa chỉ nhận hàng
+                <span id="Close">X Đóng</span>
+              </h2>
+              <form action="">
+                <p>
+                  Chọn đầy đủ địa chỉ nhận hàng để biết chính xác thời gian giao
+                </p>
+                <select name="" id="">
+                  <option value="#">--Chọn địa điểm--</option>
+                  <option value="#">Đà Nẵng</option>
+                </select>
+                <select name="" id="">
+                  <option value="#">--Chọn Quận/Huyện--</option>
+                  <option value="#">Đà Nẵng</option>
+                </select>
+                <select name="" id="">
+                  <option value="#">--Chọn Phường/Xã--</option>
+                  <option value="#">Đà Nẵng</option>
+                </select>
+                <input
+                  type="text"
+                  placeholder="Số nhà, tên đường (không bắt buộc)"
+                />
+                <button>Xác nhận</button>
+              </form>
+            </div>
+          </div>
           <li>
             <input type="search" name="" id="" placeholder="Bạn tìm gì..." />
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -203,5 +233,6 @@
         </div>
       </div>
     </section>
+    <script src="/index.js"></script>
   </body>
 </html>
