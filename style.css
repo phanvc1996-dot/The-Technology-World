@@ -365,10 +365,6 @@ li {
   position: relative;
 }
 
-.slider-content-left-top:hover .fa-solid {
-  opacity: 1;
-}
-
 .slider-content-left-top-btn {
   position: absolute;
   top: 50%;
@@ -451,4 +447,42 @@ li {
   height: 170px;
   width: 170px;
   object-fit: cover;
+}
+
+/*================================== Slider JS =====================================*/
+.slider-content-left-top img {
+  position: absolute;
+}
+
+.slider-content-left-top a:nth-child(2) img {
+  transform: translateX(100%);
+}
+
+.slider-content-left-top a:nth-child(3) img {
+  transform: translateX(200%);
+}
+
+.slider-content-left-top a:nth-child(4) img {
+  transform: translateX(300%);
+}
+
+.slider-content-left-top a:nth-child(5) img {
+  transform: translateX(400%);
+}
+
+.slider-content-left-top a:nth-child(6) img {
+  transform: translateX(500%);
+}
+
+.slider-content-left-top-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-content-left-top-container:hover .fa-solid {
+  opacity: 1;
+}
+
+.slider-content-left-top {
+  transition: all 0.3s ease;
 }
