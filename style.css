@@ -179,7 +179,7 @@ nav ul li:nth-child(9):hover a {
   font-size: 15px;
 }
 
-.menu-bar ul li {
+.menu-bar-content > ul > li {
   padding: 18px 5px;
   transition: all 0.2s ease;
 }
@@ -299,4 +299,42 @@ select {
   color: white;
   border-radius: 5px;
   cursor: pointer;
+}
+
+/*======================= Submenu ========================*/
+.menu-bar-content ul li {
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  background: #ddd;
+  width: 300px;
+  height: 200px;
+  top: 100%;
+  left: 0;
+  padding: 0.5px 0.5px;
+  overflow: scroll;
+  display: none;
+}
+
+.submenu ul {
+  display: block;
+}
+
+.submenu ul li {
+  padding: 10px 0;
+}
+
+.submenu ul li:hover a {
+  color: blue;
+  font-weight: bolder;
+}
+
+.submenu ul li:hover {
+  background: none;
+}
+
+.menu-bar-content ul li:hover .submenu {
+  display: block;
 }
