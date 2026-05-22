@@ -486,3 +486,14 @@ li {
 .slider-content-left-top {
   transition: all 0.3s ease;
 }
+
+/*=========================== Slider 1 ===============================*/
+.slider-content-left-bottom li.active {
+  border-top: 4px solid #fff200;
+  font-weight: bolder;
+}
+
+.slider-content-left-bottom li {
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+}

@@ -37,3 +37,32 @@ leftbtn.addEventListener("click", function () {
   document.querySelector(".slider-content-left-top").style.right =
     index * 100 + "%";
 });
+
+// Slider 1 ==========================================
+const imgNumberLi = document.querySelectorAll(".slider-content-left-bottom li");
+imgNumberLi.forEach(function (image, index) {
+  image.addEventListener("click", function () {
+    removeActive();
+    document.querySelector(".slider-content-left-top").style.right =
+      index * 100 + "%";
+    image.classList.add("active");
+  });
+});
+
+function removeActive() {
+  let imgActive = document.querySelector(".active");
+  imgActive.classList.remove("active");
+}
+
+/*================================= Slider 2 =============================*/
+function imgAuto() {
+  index = index + 1;
+  if (index > imgNumber.length - 1) {
+    index = 0;
+  }
+  removeActive();
+  document.querySelector(".slider-content-left-top").style.right =
+    index * 100 + "%";
+  imgNumberLi[index].classList.add("active");
+}
+setInterval(imgAuto, 5000);
