@@ -504,9 +504,13 @@ li {
 }
 
 /*=============================== Product ==============================*/
+.product-one {
+  padding: 2px 0 12px;
+}
+
 .product-one-content {
   background: #fed100;
-  padding: 12px;
+  padding: 12px 2px 2px;
 }
 
 .product-one-content-title h2 {
@@ -628,7 +632,7 @@ li {
 
 .product-one-content-items-content {
   position: relative;
-  height: 550px;
+  height: 555px;
   transition: all 0.3s ease;
 }
 
@@ -650,4 +654,22 @@ li {
 
 .product-one-content-items:nth-child(5) {
   transform: translateX(400%);
+}
+
+/*=============================== Fix lỗi 01 ===================================*/
+.slider-content-left {
+  width: 70%;
+}
+
+.slider-content-right {
+  width: 30%;
+  padding: 0;
+}
+
+.product-one-content {
+  padding: 0;
+}
+
+.product-one-content-title {
+  padding: 0 12px;
 }
