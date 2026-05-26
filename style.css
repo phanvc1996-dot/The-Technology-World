@@ -885,3 +885,114 @@ li {
 .product-gallery-two-content-left-bottom-item-text li {
   margin-bottom: 6px;
 }
+
+/*===================== FOOTER ============================*/
+footer {
+  margin: 30px 0;
+  padding: 10px 50px;
+  background: rgb(238, 238, 238);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content .column h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-content .column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-content .column ul li .phone {
+  color: black;
+  font-weight: 600;
+}
+
+.footer-content .column ul li a {
+  color: black;
+}
+
+.footer-content .column ul li a:hover {
+  color: blue;
+}
+
+.footer-content .column ul li .phone:hover {
+  color: blue;
+}
+
+.footer-content .column h5 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-content .subsidiary-company a {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer-content .subsidiary-company img {
+  width: 80px;
+  height: 24px;
+  border-radius: 10px;
+}
+
+.footer-content .social-network {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.footer-content .social-network .facebook .fa-facebook {
+  color: blue;
+}
+
+.footer-content .social-network .facebook .quantity {
+  color: black;
+}
+
+.footer-content .social-network .facebook .quantity:hover {
+  color: blue;
+}
+
+.footer-content .social-network .youtube .fa-youtube {
+  color: red;
+}
+
+.footer-content .social-network .youtube .quantity {
+  color: black;
+}
+
+.footer-content .social-network .youtube .quantity:hover {
+  color: red;
+}
+
+.footer-content .social-network .twitter .fa-square-twitter {
+  color: blue;
+}
+
+.footer-content .social-network .twitter .quantity {
+  color: black;
+}
+
+.footer-content .social-network .twitter .quantity:hover {
+  color: blue;
+}
+
+.copyright {
+  max-width: 1200px;
+  margin: 0 auto 10px;
+}
+
+.copyright a {
+  color: black;
+}
+
+.copyright a:hover {
+  color: blue;
+}
