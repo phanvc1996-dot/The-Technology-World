@@ -911,10 +911,12 @@ footer {
 .footer-content .column ul li .phone {
   color: black;
   font-weight: 600;
+  transition: all 0.2s linear;
 }
 
 .footer-content .column ul li a {
   color: black;
+  transition: all 0.4s ease;
 }
 
 .footer-content .column ul li a:hover {
@@ -987,10 +989,12 @@ footer {
 .copyright {
   max-width: 1200px;
   margin: 0 auto 10px;
+  font-size: 13px;
 }
 
 .copyright a {
   color: black;
+  font-size: 13px;
 }
 
 .copyright a:hover {
